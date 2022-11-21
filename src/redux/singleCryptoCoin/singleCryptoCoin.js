@@ -1,8 +1,7 @@
 import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 
-export const initialState = {
-  message: true,
-};
+export const initialState = true;
+
 const url = 'https://api.coingecko.com/api/v3/coins/';
 
 export const getSingleCoinFromApi = createAsyncThunk('coins/getSingleData', async (id) => {
