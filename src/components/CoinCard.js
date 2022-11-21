@@ -2,24 +2,24 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 const CoinCard = (props) => {
-  const { arr } = props;
+  const { coins } = props;
 
   return (
 
     <div className="coin-card flex">
-      <h4>{arr.name}</h4>
-      <img src={arr.image} alt={arr.name} />
+      <h4>{coins.name}</h4>
+      <img src={coins.image} alt={coins.name} />
       <p>
         Market Ranking:
         {' '}
-        {arr.ranking}
+        {coins.ranking}
       </p>
       <p>
         Current Price:
         {' '}
         $
         {' '}
-        {arr.currentPrice}
+        {coins.currentPrice}
       </p>
     </div>
 
