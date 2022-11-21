@@ -24,10 +24,38 @@
 .home-container {
   flex-direction: column;
   align-items: center;
+  justify-content: center;
+  margin-top: 3rem;
   width: 100%;
+  padding: 0;
+}
+
+.cards {
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 0;
+  margin-top: 3rem;
 }
 
 .search {
   padding: 0.7rem;
   width: 60%;
+}
+
+.coin-card {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0.4rem;
+  width: 12rem;
+  border: 1px solid grey;
+  margin: 0;
+}
+
+.coin-card > img {
+  width: 2rem;
+  height: 2rem;
 }

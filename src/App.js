@@ -10,7 +10,7 @@ function App() {
       <Navbar />
       <Routes>
         <Route exact path="/" element={<HomePage />} />
-        <Route path="/coins" element={<CoinDetails />} />
+        <Route path="/coins/:id" element={<CoinDetails />} />
       </Routes>
     </div>
 
