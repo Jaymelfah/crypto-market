@@ -12,10 +12,10 @@ const CoinCard = (props) => {
       <p>
         Market Ranking:
         {' '}
-        {coins.ranking}
+        {coins.rank}
       </p>
       <p>
-        Current Price:
+        Price:
         {' '}
         $
         {' '}

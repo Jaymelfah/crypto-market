@@ -31,6 +31,7 @@ const HomePage = () => {
             <CoinCard coins={coin} />
           </Link>
         ))}
+        {filter.length === 0 && <p>Oops...your coin is not in our database yet 😬</p>}
       </div>
     </div>
 

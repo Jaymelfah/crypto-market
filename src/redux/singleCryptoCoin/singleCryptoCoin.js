@@ -1,5 +1,6 @@
 import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 
+// To handle error when loading page
 export const initialState = true;
 
 const url = 'https://api.coingecko.com/api/v3/coins/';
