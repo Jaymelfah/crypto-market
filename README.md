@@ -21,8 +21,14 @@ and allows you to search in the home page any of your favorite crypto coins. Whe
 - Gitflow
 - Linters Check
 
+## Website Preview
+![Preview](./src/images/Screenshot%202022-11-22%20at%204.19.31%20PM.png)
+
 ## Live Demo
-Please use this [link]()
+Please use this [link](https://effervescent-stroopwafel-cbea62.netlify.app)
+
+## Video Presentation
+Please use this [link](https://www.loom.com/share/6ad034c4fa3a412ea29b11bd77a2ee6f)
 
 ## Getting Started
 
